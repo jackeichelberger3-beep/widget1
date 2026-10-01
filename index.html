@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome Widget</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="welcome-widget">
+    <!-- Hero -->
+    <header class="ww-hero">
+      <div class="ww-hero-inner">
+        <span class="ww-badge">✨ Welcome</span>
+        <h1>We're glad you're here</h1>
+        <p>Everything you need to know before you get started — an overview of who we are, the terms that apply, and how to reach us.</p>
+        <div class="ww-hero-actions">
+          <a class="ww-btn ww-btn-primary" href="#ww-info">Get started →</a>
+          <a class="ww-btn ww-btn-outline" href="#ww-contact">Contact us</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="ww-main">
+      <!-- About -->
+      <section class="ww-card" id="ww-info">
+        <div class="ww-card-head">
+          <span class="ww-icon ww-icon-light">ℹ</span>
+          <h2>About this site</h2>
+        </div>
+        <p>This website is designed to be clear, trustworthy, and easy to use. Below you'll find the terms and policies that govern your use, some extra information to help you along, and the ways you can get in touch with us.</p>
+      </section>
+
+      <!-- Accordion sections -->
+      <section class="ww-card ww-accordion" data-accordion>
+        <div class="ww-card-head">
+          <span class="ww-icon">📄</span>
+          <div>
+            <h3>Terms of Service</h3>
+            <p class="ww-sub">The rules and terms you agree to by using this site.</p>
+          </div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Acceptance of Terms</button>
+          <div class="ww-acc-panel"><p>By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree, please do not use the site.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Use of the Service</button>
+          <div class="ww-acc-panel"><p>You agree to use this service only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the service.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Intellectual Property</button>
+          <div class="ww-acc-panel"><p>All content, features, and functionality on this site are owned by us and protected by copyright, trademark, and other laws.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Limitation of Liability</button>
+          <div class="ww-acc-panel"><p>We are not liable for any indirect, incidental, or consequential damages arising from your use of the service.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Changes to Terms</button>
+          <div class="ww-acc-panel"><p>We may update these terms from time to time. Continued use of the site after changes constitutes acceptance of the new terms.</p></div>
+        </div>
+      </section>
+
+      <section class="ww-card ww-accordion" data-accordion>
+        <div class="ww-card-head">
+          <span class="ww-icon">🛡</span>
+          <div>
+            <h3>Privacy Policy</h3>
+            <p class="ww-sub">How we collect, use, and protect your information.</p>
+          </div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Information We Collect</button>
+          <div class="ww-acc-panel"><p>We collect information you provide directly and data gathered automatically through your use of the site.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">How We Use Information</button>
+          <div class="ww-acc-panel"><p>We use your information to provide and improve our services, communicate with you, and ensure a secure experience.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Data Protection</button>
+          <div class="ww-acc-panel"><p>We implement appropriate security measures to protect your personal information from unauthorized access.</p></div>
+        </div>
+      </section>
+
+      <section class="ww-card ww-accordion" data-accordion>
+        <div class="ww-card-head">
+          <span class="ww-icon">ℹ</span>
+          <div>
+            <h3>Extra Information</h3>
+            <p class="ww-sub">Helpful details to get the most out of the site.</p>
+          </div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Getting Started</button>
+          <div class="ww-acc-panel"><p>Browse the main sections from the navigation menu. Each area is designed to be self-explanatory and accessible on any device.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Accessibility</button>
+          <div class="ww-acc-panel"><p>We strive to meet accessibility standards so everyone can use this site comfortably, including keyboard navigation and screen reader support.</p></div>
+        </div>
+        <div class="ww-acc-item">
+          <button class="ww-acc-trigger">Updates & Maintenance</button>
+          <div class="ww-acc-panel"><p>We regularly update the site to add features and fix issues. Scheduled maintenance is announced in advance when possible.</p></div>
+        </div>
+      </section>
+
+      <!-- Important notices -->
+      <section class="ww-card ww-notice">
+        <div class="ww-card-head">
+          <span class="ww-icon ww-icon-amber">⚠</span>
+          <h2>Important Information</h2>
+        </div>
+        <ul class="ww-notice-list">
+          <li>This site is provided 'as is' without warranties of any kind.</li>
+          <li>Some features may require an account and are subject to availability.</li>
+          <li>Please report any security concerns to our team immediately.</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="ww-card" id="ww-contact">
+        <div class="ww-card-head">
+          <span class="ww-icon ww-icon-light">✉</span>
+          <h2>Contact Information</h2>
+        </div>
+        <p>Questions or feedback? We'd love to hear from you. Reach us through any of the channels below.</p>
+        <div class="ww-contact-grid">
+          <a class="ww-contact-item" href="mailto:hello@example.com">
+            <span class="ww-contact-icon">✉</span>
+            <div><span class="ww-contact-label">Email</span><span class="ww-contact-value">hello@example.com</span></div>
+          </a>
+          <a class="ww-contact-item" href="tel:+15551234567">
+            <span class="ww-contact-icon">☎</span>
+            <div><span class="ww-contact-label">Phone</span><span class="ww-contact-value">+1 (555) 123-4567</span></div>
+          </a>
+          <div class="ww-contact-item">
+            <span class="ww-contact-icon">📍</span>
+            <div><span class="ww-contact-label">Address</span><span class="ww-contact-value">123 Main Street, Suite 100, San Francisco, CA</span></div>
+          </div>
+          <div class="ww-contact-item">
+            <span class="ww-contact-icon">🕒</span>
+            <div><span class="ww-contact-label">Hours</span><span class="ww-contact-value">Mon–Fri, 9:00 AM – 5:00 PM (PT)</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="ww-footer">© 2025 Your Company. All rights reserved.</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
